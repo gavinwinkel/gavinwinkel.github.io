@@ -3,8 +3,7 @@
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
-			embeddedservice_bootstrap.settings.language = ''; // For example, enter 'en' or 'en-US'
-
+			embeddedservice_bootstrap.settings.language =  'en';
 			embeddedservice_bootstrap.init(
 				'00D8B0000004dTj',
 				'messaging',
