@@ -1,6 +1,14 @@
 @font-face {
     font-family: Speedee;
-    src: url("../gavinwinkel.github.io/Speedee_W_Rg.woff") format('truetype');
+    src: url("../gavinwinkel.github.io/Speedee_W_Rg") format('woff');
     font-weight: bold;
     font-style: normal;
 }
+
+:root {
+      /** set the font for all root/body text **/
+      --dxp-g-root-font-family: 'Speedee', Helvetica, sans-serif;
+      
+      /** set the font for headings **/
+      --dxp-g-heading-font-family: 'Speedee', Times, serif;
+   }    
